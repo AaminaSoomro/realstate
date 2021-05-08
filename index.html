@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Realestate</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+		<script type="text/javascript" src="file/jquery.min.js"></script>
+		<script src="script.js"></script>
+</head>
+<style type="text/css">
+	.main{
+		background-color: white;
+		margin-top: 30px;
+		border-radius: 15px;
+	}
+	
+	.one a{
+		   color: #555555;
+		   text-decoration: none;
+
+	}
+	.one a h5{
+		padding-top: 20px;
+	}
+	.one a h5:hover{
+		  color: black;
+		   
+	}
+	.two a{
+		   
+		   color: #555555;
+		   text-decoration: none;
+
+	}
+	.two a h5{
+		padding-top: 20px;
+	}
+
+	.two a h5:hover{
+		  color: black;
+		   
+	}
+	.three a{
+		   text-decoration: none;
+		   color: #555555;
+
+	}
+	.three a h5{
+		  padding-top: 20px;
+	}
+	.three a h5:hover{
+		  color: black;
+		   
+	}
+</style>
+
+<body style="background-color: #ddd;">
+	<div class="container main">
+		<div class="row">
+			<div class="col-md-1">
+				<h5 style="padding: 20px; font-family: serif;">RealEstate</h5>
+			</div>
+			<div class="col-md-1 offset-2 one">
+				<a href=""><h5>Buy</h5></a>
+			</div>
+			<div class="col-md-1 two">
+				<a href=""><h5>Sell</h5></a>
+			</div>
+			<div class="col-md-1 three">
+				<a href=""><h5>Rent</h5></a>
+			</div>
+			<div class="col-md-2 offset-1" style="padding-top: 15px;">
+				<div class="input-group">
+                 <input type="search" class="form-control" style="border-radius: 50px;" placeholder="Search" aria-label="Search" aria-describedby="search-addon"/>
+               </div>
+			</div>
+			<div class="col-md-2">
+				<button type="submit" class="btn btn-primary" style="border-radius: 50px; margin: 15px;"> <span>+</span>Add Listing</button>
+			</div>
+			<div class="col-md-1">
+				<img src="https://img.freepik.com/free-photo/handsome-young-businessman-shirt-eyeglasses_85574-6228.jpg?size=626&ext=jpg" style="margin: 15px; height: 40px; border-radius: 50px;" alt="">
+			</div>
+		</div>
+	
+	
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="img/mode.jpg" height="270px;" width="100%;" style="margin: 15px; border-radius: 15px;" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"">
+						<div class="row">
+							<div class="col-md-3">
+								<img src="img/inner1.jpg" height="80px;" width="100%;" style="margin-left: 15px; border-radius: 10px;" alt="" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+							</div>
+							<div class="col-md-3">
+								<img src="img/inner2.jpg" height="80px;" width="100%;" style="margin-left: 15px; border-radius: 10px;" alt="" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"">
+							</div>
+							<div class="col-md-3">
+								<img  src="img/inner3.jfif" height="80px;" width="100%;" style="margin-left: 15px; border-radius: 10px;" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+							</div>
+							<div class="col-md-3">
+								<img src="img/iner4.jfif" height="80px;" width="100%;" style="margin-left: 15px; border-radius: 10px;" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+							</div>
+							 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col-md-8">
+						<h5 style="padding-left: 20px;">The Crystal Hyatt Place<p style="font-size: 12px;">(New York/Mid Town South)</p></h5>
+						<p style="padding-left: 15px;">52 west south,New York, united states of Amrica</p>
+					</div>
+					<div class="col-md-4">
+						<p style="font-weight: bold">Price<span style="padding-right: 15px;">:</span>$1,500,000</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<h5 style="padding-left: 15px;">Bathroom</h5><span style="padding-left:40px;"><i class="las la-bath"></i>2</span>
+					</div>
+					<div class="col-md-2">
+						<h5>Bedroom</h5><span style="padding-left:25px;"><i class="las la-bed"></i>2</span>
+					</div>
+					<div class="col-md-2">
+						<h5>Area Space</h5><span style="padding-left:15px;"><i class="las la-chart-area"></i>2500ft</span>
+					</div>
+				</div>
+				<h4 style="padding-left: 15px;">Discription</h4>
+				<p style="padding-left: 15px; font-size: 13px;">Just 5 minutes' walk from the Empire state Building. In this Free wifi and modern rooms equipped with a flat screen TV. The 34th street-heraid square underground station is 4 minutes'walk away.</p>
+				<p style="padding-left: 15px;  font-size: 13px;">A corner sofa and a refrigerator are include in each room at hyatt place New York. A work desk along with coffee making facilities is also included.</p>
+				<h4 style="padding-left: 15px;">Home Details</h4>
+				<p style="padding-left: 15px; font-size: 13px;">Just 5 minutes' walk from the Empire state Building. In this Free wifi and modern rooms equipped with a flat screen TV. The 34th street-heraid square underground station is 4 minutes'walk away.</p>
+				<p style="padding-left: 15px; font-size: 13px;">A corner sofa and a refrigerator are include in each room at hyatt place New York. A work desk along with coffee making facilities is also included.</p>
+
+			</div>
+			<div class="col-md-4">
+				<div class="card" style="margin-top: 17px; background-color: #white; ">
+                 <div class="card-body">
+                 	<div class="row">
+                 		<div class="col-md-2">
+                 			<img src="https://img.freepik.com/free-photo/handsome-young-businessman-shirt-eyeglasses_85574-6228.jpg?size=626&ext=jpg" height="50px" style="border-radius: 50px;" alt="">
+                 		</div>
+                 		<div class="col-md-6">
+                 			<h5 class="card-title" style="padding-top: 8px;">Jonathan Starus</h5>
+                 			<p>Joined in Sep,2018</p>
+                 		</div>
+                 		<div class="row">
+                 			<div class="col-md-6 offset-2">
+                 				<a href="">View Profile</a>
+                 			</div>
+                 			<div class="col-md-4">
+                 				<span style="color: blue;"><i class="las la-star-half-alt"></i>4.8(198)</span>
+                 			</div>
+                 		</div><br><br>
+                 	<p style="text-align: justify; font-size: 12px;">I am a Postdoc working on cancer research. Just moved from Taiwan to YN in 2017. Cant't tell you how much i love this city since my first visit in 2010. I am a crazy dog lover. A big fan of musicals. Love ice cream will only have it whan something big.lol  </p>
+                 	</div>
+                 		  <div class="row">
+                 		  	<div class="col-md-6">
+                 		  		<h6><b>Language<span>:</span></b></h6>
+                 		  	</div>
+                 		  	<div class="col-md-6">
+                 		  		<p>English</p>
+                 		  	</div>
+                 		  </div>
+                 		   <div class="row">
+                 		  	<div class="col-md-6">
+                 		  		<h6><b>Responce Rate<span>:</span></b></h6>
+                 		  	</div>
+                 		  	<div class="col-md-6">
+                 		  		<p>100%</p>
+                 		  	</div>
+                 		  </div>
+                 		  <div class="row">
+                 		  	<div class="col-md-6">
+                 		  		<h6><b>Responce Time<span>:</span></b></h6>
+                 		  	</div>
+                 		  	<div class="col-md-6">
+                 		  		<p>Within an hour</p>
+                 		  	</div>
+                 		  </div>
+                      </div>
+                               <div class="row">
+                 		  	    <div class="col-md-5">
+                 		  		<h6 style="font-size: 13px; padding-left: 15px;"><b>Contact with host<span>:</span></b></h6>
+                 		  	   </div>
+                 		  	   <div class="col-md-3">
+                 		  		<button type="button"  style="border-radius: 30px; border-color: #727CD7;"><a href="" style=" text-decoration: none;"><i class="las la-envelope"></i>Email</a></button>
+                 		  	</div>
+                 		  	 <div class="col-md-4">
+                 		  		<button type="button"   style="border-radius: 30px; border-color: #727CD7; margin-left: 20px;"><a href="" style=" text-decoration: none;"><i class="las la-phone-volume"></i>Call</a></button>
+                 		  	</div>
+                     </div>
+                </div><br>
+                <div class="row">
+                	<h5><b>Properties Nearby</b></h5>
+				<div class="col-md-4" style="background-color: #F0F0F0; height: 70px; border-radius: 10px;">
+					<a href=""><img src="img/home1.jfif" height="70px;" width="90%;" style=" border-radius: 10px;" alt=""></a>
+				</div>
+				<div class="col-md-8" style="background-color:#F0F0F0; height: 70px; border-radius: 10px;">
+					<p><b>$1,500,000</b><br>100 west, 15 street, San Frances<br>
+						<span><i class="las la-bath"></i> 2</span><span style="padding-left: 30px;"><i class="las la-bed"></i>2</span><span style="padding-left: 30px;"><i class="las la-chart-area"></i>2500 ft</span>
+					</p>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-md-4" style="background-color: #F0F0F0; height: 70px; border-radius: 10px;">
+					<a href=""><img src="img/home2.jfif" height="70px;" width="90%;" style=" border-radius: 10px;" alt=""></a>
+				</div>
+				<div class="col-md-8" style="background-color:#F0F0F0; height: 70px; border-radius: 10px;">
+					<p><b>$1,600,000</b><br>100 west, 15 street, San Frances<br>
+						<span><i class="las la-bath"></i> 2</span><span style="padding-left: 30px;"><i class="las la-bed"></i>2</span><span style="padding-left: 30px;"><i class="las la-chart-area"></i>2600 ft</span>
+					</p>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-md-4" style="background-color: #F0F0F0; height: 70px; border-radius: 10px;">
+					<a href=""><img src="img/home3.jfif" height="70px;" width="90%;" style=" border-radius: 10px;" alt=""></a>
+				</div>
+				<div class="col-md-8" style="background-color:#F0F0F0; height: 70px; border-radius: 10px;">
+					<p><b>$1,700,000</b><br>100 west, 15 street, San Frances<br>
+						<span><i class="las la-bath"></i> 3</span><span style="padding-left: 30px;"><i class="las la-bed"></i>3</span><span style="padding-left: 30px;"><i class="las la-chart-area"></i>2700 ft</span>
+					</p>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-md-4" style="background-color: #F0F0F0; height: 70px; border-radius: 10px;">
+					<a href=""><img src="img/home4.jfif" height="70px;" width="90%;" style=" border-radius: 10px;" alt=""></a>
+				</div>
+				<div class="col-md-8" style="background-color:#F0F0F0; height: 70px; border-radius: 10px;">
+					<p><b>$1,800,000</b><br>100 west, 15 street, San Frances<br>
+						<span><i class="las la-bath"></i> 3</span><span style="padding-left: 30px;"><i class="las la-bed"></i>5</span><span style="padding-left: 30px;"><i class="las la-chart-area"></i>2800 ft</span>
+					</p>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
